@@ -12,7 +12,7 @@ PRODUCT_SERVICE_IMAGE='tailwind-product-service:0.1'
 INVENTORY_SERVICE_IMAGE='tailwind-inventory-service:0.1'
 FRONTEND_IMAGE='tailwind-frontend:0.1'
 
-MAIN_REGION=westus2
+MAIN_REGION=westeurope
 
 printf "\n*** Creating resource group $RESOURCE_GROUP_NAME ***\n"
 az group create -n $RESOURCE_GROUP_NAME -l $MAIN_REGION
